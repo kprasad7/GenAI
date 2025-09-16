@@ -15,7 +15,7 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 # --- CONFIG ---
 MISTRAL_API_KEY = "1QJOIuK9SIhpKkF9vwg3IMgMIiEr0fQR"  # Replace with your real key
-MODEL_NAME = "mistral-large-latest"
+MODEL_NAME = "codestral-latest"
 DEBUG = os.getenv("DEBUG", "").lower() == "true"
 
 # Initialize LLM
